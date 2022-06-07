@@ -1,0 +1,440 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/IMG/wallpaperflare.com_wallpaper.jpg');
+    background-size: 100%;
+}
+header{
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+.headermenu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    gap: 120px;
+    align-tracks: center;
+}
+.hgrid{
+    background-color:dimgray;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor:cell
+}
+.hgrid p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.hgrid:hover{
+    background-color: red;
+    color: white;
+}
+.ggrid_1{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    background-image: url('/IMG/222.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    align-items:flex-start;
+}
+main{
+    padding: 30px 0px;
+}
+.gridcontainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 30px;
+    align-tracks: center;
+}
+.grid{
+    background-image: url('/IMG/images.jpeg');
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+
+}
+
+.grid_1{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    background-image: url('/IMG/222.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    align-items:flex-start;
+
+}
+.grid_1 h1{
+    color:brown;
+    padding-left: 30px;
+    margin-top:  30%;
+}
+.grid_1 h1::first-letter{
+font-size: 2em;
+color: turquoise;
+}
+.grid_1 p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    color:aliceblue;
+}
+.grid_1 p::first-letter{
+    font-size: 80px;
+    color: yellow;
+}
+.grid_1 button{
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    background-color:lightgray;
+    border-radius: 15px;
+    border-color: lightgray;
+    border-style: solid;
+    cursor: pointer;
+}
+.grid_1:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_1 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_2:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_2 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_2 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.grid_2 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_3:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_3 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_3 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.grid_3 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white;  
+}
+.grid_4:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_4 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_4 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.grid_4 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_5:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_5 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_5 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.grid_5 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_6:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+
+.grid_6 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_6 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.grid_6 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_7:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_7 span{
+    font-size: 30px;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 25px 0;
+}
+.grid_7 button{
+    width: 40%;
+    height: 40px;
+    background-color: brown;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.grid_7 button:hover{
+    background-color: rgb(70, 10, 10);
+    color: white; 
+}
+.grid_8:hover{
+    border: 5px solid;
+    border-color: rgb(77, 14, 14);
+    border-radius: 30px;
+}
+.grid_8 {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: lightgray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.gr8{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+    height: 400px;
+    background:url('/IMG/22222.jpeg') center/cover;
+    border-radius: 10px;
+    cursor: grab;
+}
+.content:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+}
+.text{
+    padding-left: 40px;
+    padding-top: 10%;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text::first-letter{
+    font-size: 30px;
+    color: rgb(175, 5, 5);
+}
+.text button{
+    width: 100px;
+    height: 40px;
+    background-color:brown;
+    border-radius: 15px;
+    border-color: brown;
+    border-style: solid;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: maroon;
+    color: white;
+}
+.footer{
+    width: 100%;
+}
+.footercontainer{
+    width: 100%;
+    padding: 40px, 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(250px, auto);
+    gap: 30px;
+    align-tracks: center;
+}
+.imggrid{
+    background-color: burlywood;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+.imgrid_1{
+    margin-top: 30px;
+    background-image: url('/IMG/image_print.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_1:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+}
+.imgrid_2{
+    margin-top: 30px;
+    background-image: url('/IMG/Zugpsitze_mountain.jpeg');
+    background-size: cover;
+    cursor: grab;
+   }
+.imgrid_2:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_3{
+    margin-top: 30px;
+    background-image: url('/IMG/Shaqi_jrvej.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_3:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_4{
+    margin-top: 30px;
+    background-image: url('/IMG/man-walking-dog.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_4:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_5{
+    margin-top: 30px;
+    background-image: url('/IMG/shutterstock_1458128810.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_5:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_6{
+    margin-top: 30px;
+    background-image: url('/IMG/1627377451_nature-1200x800.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_6:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_7{
+    margin-top: 30px;
+    background-image: url('/IMG/24701-nature-natural-beauty.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_7:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_8{
+    margin-top: 30px;
+    background-image: url('/IMG/MtFuji-GettyImages-959111140.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_8:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_9{
+    margin-top: 30px;
+    background-image: url('/IMG/233005172-rothenbach-nature-and-environment-discovery-centre-1.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_9:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
+.imgrid_10{
+    margin-top: 30px;
+    background-image: url('/IMG/p01lymgh.jpeg');
+    background-size: cover;
+    cursor: grab;
+}
+.imgrid_10:hover{
+    border: 5px solid;
+    border-color: red;
+    border-radius: 30px;
+   }
